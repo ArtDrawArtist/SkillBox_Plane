@@ -1,0 +1,108 @@
+{
+    "version": 1,
+    "name": "PlaneInputActions",
+    "maps": [
+        {
+            "name": "Player",
+            "id": "adf1bd94-5c67-44d0-a332-6da2824fb657",
+            "actions": [
+                {
+                    "name": "Move",
+                    "type": "Value",
+                    "id": "f6401705-4cfd-4cdd-bc6b-e726f5bb2e3f",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Rotate",
+                    "type": "Value",
+                    "id": "f67145b7-dbfa-4163-a6c4-a9649b00e3a8",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Height",
+                    "type": "Value",
+                    "id": "fb17a565-d590-49ed-818f-e706e4d3922f",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "c86863cc-3a2b-45b3-a22a-f636f66b917e",
+                    "path": "<Keyboard>/w",
+                    "interactions": "",
+                    "processors": "Scale",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "2a190444-04f8-4dfc-ac1d-3845de99c371",
+                    "path": "<Keyboard>/s",
+                    "interactions": "",
+                    "processors": "Scale(factor=-1)",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "5399258f-6e35-4351-88cf-0faf11d2efa3",
+                    "path": "<Keyboard>/a",
+                    "interactions": "",
+                    "processors": "Scale(factor=-1)",
+                    "groups": "",
+                    "action": "Rotate",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "e81a1205-864c-4231-8c6d-35b197d99e3c",
+                    "path": "<Keyboard>/d",
+                    "interactions": "",
+                    "processors": "Scale",
+                    "groups": "",
+                    "action": "Rotate",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "4d598959-6e3a-415a-857a-83ed38f7484f",
+                    "path": "<Keyboard>/space",
+                    "interactions": "",
+                    "processors": "Scale",
+                    "groups": "",
+                    "action": "Height",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "52b725fc-fc8d-4ab8-ac37-1a3fe3e3eaaa",
+                    "path": "<Keyboard>/ctrl",
+                    "interactions": "",
+                    "processors": "Scale(factor=-1)",
+                    "groups": "",
+                    "action": "Height",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
